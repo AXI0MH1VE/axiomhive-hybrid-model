@@ -58,32 +58,35 @@ The AxiomHive Hybrid Model integrates:
 
 ---
 
-## 📦 Repository Structure
+## 📦 Current Repository Structure
+
+> **Note**: This is an early-stage project. The current structure reflects active development.
 
 ```
 axiomhive-hybrid-model/
-├── core/
-│   ├── symbolic/          # Neuro-symbolic reasoning engine
-│   ├── probabilistic/     # Neural network components
-│   └── orchestrator/      # Hybrid routing logic
-├── models/
-│   ├── axioms/           # Formal constraint definitions
-│   └── networks/         # Pre-trained models
-├── examples/
-│   ├── compliance/       # Regulatory compliance use cases
-│   ├── security/         # Cybersecurity applications
-│   └── finance/          # Financial risk assessment
-├── tests/
-│   ├── unit/
-│   ├── integration/
-│   └── adversarial/      # Red team testing
-└── docs/
-    ├── architecture.md
-    ├── api_reference.md
-    └── deployment_guide.md
+├── axiomhive/               # Main Python package
+│   ├── __init__.py
+│   ├── attestation.py      # Cryptographic attestation engine
+│   └── [Additional modules in development]
+├── .gitignore
+├── LICENSE                # MIT License
+├── README.md              # This file
+└── requirements.txt       # Python dependencies
 ```
 
----
+**Planned Structure** (in development):
+```
+axiomhive-hybrid-model/
+├── axiomhive/
+│   ├── symbolic/           # 🚧 Neuro-symbolic reasoning engine
+│   ├── probabilistic/      # 🚧 Neural network components  
+│   └── orchestrator/       # 🚧 Hybrid routing logic
+├── tests/                  # 🚧 Test suite
+├── examples/               # 🚧 Use case demonstrations
+└── docs/                   # 🚧 Technical documentation
+```
+
+------
 
 ## 🚀 Quick Start
 
@@ -144,17 +147,28 @@ print(result.confidence)      # Confidence metrics
 
 ---
 
-## 📊 Performance Benchmarks
+## 📊 Development Status & Benchmarks
 
-| Metric | Hybrid Model | Pure Neural | Pure Symbolic |
-|--------|--------------|-------------|---------------|
-| Accuracy | **98.7%** | 96.2% | 94.8% |
-| Explainability | **100%** | 12% | 100% |
-| Adversarial Robustness | **99.1%** | 67.3% | 98.9% |
-| Inference Speed | 45ms | **12ms** | 89ms |
+> ⚠️ **Development Phase**: This is an early-stage research project. The architecture and implementation are under active development.
+
+**Current Status:**
+- ✅ Core architecture design completed
+- ✅ Python package structure established
+- ✅ Cryptographic attestation engine implemented
+- 🚧 Neuro-symbolic integration in progress
+- 🚧 Performance benchmarking planned
+- 🚧 Production-ready testing in development
+
+**Planned Benchmarking:**
+We are currently developing comprehensive benchmarking suites to measure:
+- Accuracy vs. pure probabilistic and pure symbolic approaches
+- Explainability metrics and audit trail completeness
+- Adversarial robustness across attack vectors
+- Inference latency and throughput
+
+Benchmark results will be published upon completion of testing infrastructure.
 
 ---
-
 ## 🛡️ Security & Safety
 
 - **Formal Verification**: All deterministic components formally verified
@@ -166,12 +180,17 @@ print(result.confidence)      # Confidence metrics
 
 ## 📚 Documentation
 
-- [Architecture Deep Dive](docs/architecture.md)
-- [API Reference](docs/api_reference.md)
-- [Deployment Guide](docs/deployment_guide.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
+> ⚠️ **In Development**: Comprehensive documentation is currently being developed alongside the implementation.
 
----
+**Coming Soon:**
+- Technical Architecture Overview
+- API Reference and Usage Guide  
+- Deployment Guide for Production
+- Contributing Guidelines
+
+For now, please refer to this README and inline code documentation.
+
+------
 
 ## 🤝 Contributing
 
@@ -191,8 +210,7 @@ MIT License - see [LICENSE](LICENSE) for details
 
 - **Website**: [axiomhive.ai](https://axiomhive.ai)
 - **Twitter**: [@AxiomHive](https://twitter.com/AxiomHive)
-- **Contact**: alexis@axiomhive.ai
-
+- **Contact**: devdollzai@gmail.com
 ---
 
 **Built with rigor. Deployed with confidence.**
